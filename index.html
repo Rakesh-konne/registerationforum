@@ -89,8 +89,8 @@ border: 2px solid black;
 
     <form id="details">
         <div class="labels">
-            <label for="username" >Username:</label>
-            <input required type="text" id="username" name="Username">
+            <label for="name" >Username:</label>
+            <input required type="text" id="name" name="name">
         </div>
 
 
@@ -207,7 +207,7 @@ let table = `<table style = 'width: 51%;border: 3px solid black;'><tr class="rk"
 
 let final_details = (event) => {
           event.preventDefault();
-          let name = document.getElementById("username").value;
+          let name = document.getElementById("name").value;
           console.log(name);
           let email = document.getElementById("email").value;
           let password = document.getElementById("password").value;
